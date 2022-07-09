@@ -2,7 +2,7 @@
  * @Author: Mocking 497773732@qq.com
  * @Date: 2022-06-25 11:27:50
  * @LastEditors: Mocking 497773732@qq.com
- * @LastEditTime: 2022-06-27 13:56:12
+ * @LastEditTime: 2022-07-09 13:12:26
  * @FilePath: \blog-service\app\service\utils.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -14,8 +14,8 @@ const OSS = require("ali-oss");
 const aliInfo = {
   region: "oss-cn-chengdu",
   bucket: "nocking-blog-artical",
-  accessKeyId: "LTAI5t5rtmWcrt2MhpZE1m3u",
-  accessKeySecret: "cTWXkD9iT5XzwMNCmsLxGldwHvstAs",
+  accessKeyId: "",
+  accessKeySecret: "",
 };
 const client = new OSS(aliInfo);
 
